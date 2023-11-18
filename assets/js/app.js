@@ -8,7 +8,7 @@ function openNav() {
 setTimeout(() => {
     document.getElementById("preloader").classList.add("opacity-0");
     document.getElementById("preloader").classList.add("pointer_event_none")
-    document.body.classList.remove("overflow-hidden")
+    document.body.classList.remove("overflow_hidden")
 }, 2000);
 
 // back to top
