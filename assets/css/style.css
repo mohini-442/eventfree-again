@@ -106,6 +106,10 @@
     object-fit: cover;
 }
 
+.nav-links:hover {
+    -webkit-text-stroke: 0.5px white;
+}
+
 .d-none {
     display: none;
 }
@@ -395,10 +399,12 @@
     background: var(--white);
     padding: 10px 11px 24px 13px;
     cursor: pointer;
+    box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
 }
 
 .card:hover {
-    box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
+    transform: scale(1.1);
+    transition: all 200ms linear;
 }
 
 .pl-12 {
@@ -607,6 +613,7 @@
     background-color: var(--blue);
     border: none;
     cursor: pointer;
+    display: none;
 }
 
 .pos-fixed {
@@ -843,6 +850,10 @@
         padding-right: 12px;
     }
 
+    .pt-md-80 {
+        padding-top: 80px;
+    }
+
     .check-box {
         max-width: 962px;
         height: 240px;
@@ -917,11 +928,6 @@
         padding-left: 12px;
         padding-right: 12px;
     }
-
-    .img-w {
-        height: 500px;
-    }
-
     .text-align-lg-left {
         text-align: left;
     }
