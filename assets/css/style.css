@@ -201,11 +201,15 @@
     background: var(--blue);
     border: none;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .logout-btn:hover {
     animation: pulse 1s infinite;
     transition: .3s;
+    color: var(--blue);
+    background-color: var(--white);
+    border: 2px solid var(--blue);
 }
 
 @keyframes pulse {
@@ -928,6 +932,7 @@
         padding-left: 12px;
         padding-right: 12px;
     }
+
     .text-align-lg-left {
         text-align: left;
     }
