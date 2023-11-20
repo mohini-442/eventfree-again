@@ -403,12 +403,12 @@
     background: var(--white);
     padding: 10px 11px 24px 13px;
     cursor: pointer;
-    box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
+    transition: all 100ms linear;
 }
 
 .card:hover {
-    transform: scale(1.1);
-    transition: all 200ms linear;
+    transform: scale(1.03);
+    box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
 }
 
 .pl-12 {
@@ -619,7 +619,6 @@
     cursor: pointer;
     display: none;
 }
-
 .pos-fixed {
     position: fixed;
     z-index: 1;
